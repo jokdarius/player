@@ -1,0 +1,30 @@
+# KiCad backups and autosave
+*-backups/
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+_autosave-*
+\#auto_saved_files\#
+
+# KiCad lock files
+~*.lck
+*.lck
+
+# KiCad caches and per-user local settings
+fp-info-cache
+*.kicad_prl
+
+# Autorouter temporary files
+*.dsn
+*.ses
+
+# Misc generated files
+*.erc
+*.drc
+*.rpt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
